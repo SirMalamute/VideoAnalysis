@@ -1,0 +1,13 @@
+{
+  "name": "Panther23",
+  "description": "Monitors YouTube URLs and allows user to scan them later.",
+  "version": "1.0",
+
+  "manifest_version": 3,
+  "permissions": ["scripting", "tabs"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+
+  "background": {
+    "service_worker": "background.js"
+  }
+}
